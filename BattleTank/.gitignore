@@ -1,3 +1,5 @@
+### THIS GITIGNORE HAS BEEN UPDATED ###
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -70,6 +72,7 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
+Content/StarterContent/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
