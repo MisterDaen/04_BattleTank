@@ -2,10 +2,12 @@
 
 #pragma once
 
-#include "Tank.h"
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"
+
+// Forward Declarations
+class ATank;
 
 /**
  * 
@@ -20,7 +22,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	ATank* GetControlledTank() const;
-	
 
 	// starts the movement of the barrel so that a shot would hit where the crosshair intersects the world
 	void AimTowardsCrosshair();
