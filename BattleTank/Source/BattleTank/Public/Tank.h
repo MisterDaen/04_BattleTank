@@ -38,6 +38,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UFUNCTION(BlueprintCallable, Category = Firing)
+	void Fire();
+
 private:
 	UPROPERTY(EditAnywhere, Category = Firing)
 	float LaunchSpeed = 4000;
